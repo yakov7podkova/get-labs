@@ -1,3 +1,4 @@
+# скрипт, данный в задании, с нужными параметрами обрезки
 import numpy as np
 import matplotlib.pyplot as plt
 import imageio
