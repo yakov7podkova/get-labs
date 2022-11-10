@@ -1,3 +1,4 @@
+# скрипт поворота изображений
 from PIL import Image 
 
 
