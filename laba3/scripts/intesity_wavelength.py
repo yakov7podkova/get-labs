@@ -1,3 +1,4 @@
+# скрипт построения графика зависимости яркость/длина волны
 import matplotlib.pyplot as plt
 import numpy as np
 import imageio.v3 as imageio
