@@ -1,3 +1,4 @@
+# скрипт построения графика зависимости яркость/отн. номер пикселя
 import numpy as np
 import lightfunctions as j 
 
