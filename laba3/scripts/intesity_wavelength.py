@@ -10,8 +10,6 @@ rotated_list = ['laba_3/images_rotated/blue_rotated.jpg', 'laba_3/images_rotated
 
 def readRGB(photoName):
     photo = imageio.imread(photoName)
-    background = photo[255:630, 400:550, 0:3].swapaxes(0, 1)
-
 
     cut = photo[255:630, 470:600, 0:3].swapaxes(0, 1)
     rgb = np.mean(cut, axis=(0))
