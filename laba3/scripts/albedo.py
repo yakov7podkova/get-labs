@@ -1,11 +1,10 @@
+# скрипт построения графика зависимости альбедо/длина волны
 import matplotlib.pyplot as plt
 import numpy as np
 import imageio.v3 as imageio
 
 rotated_list = ['laba_3/images_rotated/blue_rotated.jpg', 'laba_3/images_rotated/calibrovka_rotated.jpg', 'laba_3/images_rotated/green_rotated.jpg', 
 'laba_3/images_rotated/red_rotated.jpg', 'laba_3/images_rotated/white_rotated.jpg', 'laba_3/images_rotated/yellow_rotated.jpg']
-
-
 
 
 def readRGB(photoName):
@@ -16,7 +15,6 @@ def readRGB(photoName):
     luma = 0.2989 * rgb[:, 0] + 0.5866 * rgb[:, 1] + 0.1144 * rgb[:, 2]
 
     return luma
-
 
 
 luma_blue = readRGB(rotated_list[0])
