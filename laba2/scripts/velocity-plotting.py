@@ -75,5 +75,5 @@ with open("consumption.txt", 'w') as f:
         f.write(str(round(item, 2)) + " ")
 
 ax.legend(fontsize=15)
-fig.savefig("velocity-outgo.png")
+fig.savefig("velocity.png")
 plt.show()
